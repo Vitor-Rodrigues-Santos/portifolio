@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <h1>Vitor Rodrigues - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li> <a href="#sobre">Sobre</a></li>
+                <li> <a href="#projetos">Projetos</a></li>
+                <li> <a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="selfie.png" alt="Minha foto" width="175">
+            <p>Sou estudante de <strong>Desenvolvimento de sistemas</strong> no SENAI.</p>
+            <p>Tenho conhecimento em <em>FIGMA, GitHub </em> e estou aprendendo <em>HTML, CSS, PHP e SQL</em> neste semestre.</p>
+
+            <h3>Minhas Habilidades:</h3>
+            <ul style="list-style-type: disc">
+            <li>Git e GitHub</li>
+            <li>Adobe Photoshop, FIGMA e Canva</li>
+            <li>Pacote Office</li>
+            <li>HTML e CSS</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th> Projeto </th>
+                        <th> Tecnologias </th>
+                        <th> Status </th>
+                        <th> Link </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Site Simples Fundação Bradesco</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Concluído</td>
+                        <td> <a href="https://vitor-rodrigues-santos.github.io/site-simples/">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Projeto Filme</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td> <a href="https://github.com/Vitor-Rodrigues-Santos/projeto_filme">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Portifólio</td>
+                        <td>HTML</td>
+                        <td>Em Andamento</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome: </label> <br>
+                    <input type="text" id="nome" name="nome"> <br> <br>
+
+                    <label for="email">Email: </label> <br>
+                    <input type="email" id="email" name="email"> <br><br>
+
+                    <label for="assunto">Assunto: </label> <br>
+                    <select name="assunto" id="assunto">
+                        <option>Oportunidade de Trablho</option>
+                        <option>Proposta de Projeto</option>
+                        <option>Contato Geral</option>
+                    </select> <br><br>
+
+                    <label for="mensagem">Mensagem: </label> <br>
+                    <textarea name="mensagem" id="mensagem"></textarea> <br><br>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+        <p> &copy; Vitor Rodrigues. Desenvolvido durante o curso do SENAI.</p>
+        <hr>
+        <a href="mailto: vitor.vrs.santos@gmail.com">vitor.vrs.santos@gmail.com</a> | <a href="https://api.whatsapp.com/send/?phone=5511971085119&text&type=phone_number&app_absent=0"> (11) 97108-5119</a>
+    </main>
+</body>
+</html>
